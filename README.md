@@ -1,1 +1,2 @@
 # BugBounty-cheatsheets
+BugBounty中常用的Tips
