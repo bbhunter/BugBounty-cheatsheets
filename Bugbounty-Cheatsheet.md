@@ -104,6 +104,7 @@
   - [Json Cheatsheet](#json-cheatsheet)
     - [响应注入](#响应注入)
   - [XSS Cheatsheet](#xss-cheatsheet)
+    - [PDF XSS](#pdf-xss)
 
 # BugBounty Cheatsheet
 ## CSRF-Cheatsheet
@@ -796,3 +797,6 @@ https://xz.aliyun.com/t/10560
 ### 响应注入
 payload: `"%0a"aaa":"bbb`
 ## XSS Cheatsheet
+### PDF XSS
+通过上传嵌入js代码的pdf文件进行XSS.  
+https://github.com/ynsmroztas/pdfsvgxsspayload/blob/main/poc.pdf
